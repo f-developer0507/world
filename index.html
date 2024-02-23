@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/main.css">
+    <link rel="stylesheet" href="./css/reset.css">
+    <title>uyga vazifa 2</title>
+  </head>
+  <body>
+    <header class="site-header">
+      <div class="container">
+        <nav class="header__nav">
+          <h2 class="header__title">where in the world?</h2>
+          <div class="btn-wrapper">
+            <button class="mode-btn light-btn active" type="button">
+              <span class="light-icon"
+                ><ion-icon name="sunny-outline"></ion-icon
+              ></span>
+            </button>
+            <button class="mode-btn dark-btn" type="button">
+              <span class="dark-icon"
+                ><ion-icon name="moon-outline"></ion-icon
+              ></span>
+            </button>
+          </div>
+        </nav>
+      </div>
+    </header>
+
+    <main class="site-main">
+        <div class="container">
+          <div class="countries-row">
+            <div class="countries__form-wrapper">
+              <form name="form" id="form" method="post" enctype="application/x-www-form-urlencoded">
+                <div class="input-wrapper">
+                  <span class="input__icon"><svg xmlns="http://www.w3.org/2000/svg" class="ionicon" viewBox="0 0 512 512"><path d="M221.09 64a157.09 157.09 0 10157.09 157.09A157.1 157.1 0 00221.09 64z" fill="none" stroke="currentColor" stroke-miterlimit="10" stroke-width="32"/><path fill="none" stroke="currentColor" stroke-linecap="round" stroke-miterlimit="10" stroke-width="32" d="M338.29 338.29L448 448"/></svg></span>
+                  <input type="text" placeholder="Search for a coutry" name="user-search" autocomplete="off">
+                </div>
+              </form>
+            </div>
+          </div>
+        </div>
+    </main>
+
+    <script src="./js/main.js"></script>
+    <script src="./js/app.js"></script>
+    <!-- icons js -->
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+  </body>
+</html>
